@@ -57,8 +57,7 @@ def adicionar_nota():
             while len(alunos[nome]) < 3:
                 nota = float(input("Digite uma nota: "))
                 if nota < 0 or nota > 10:
-                    print("A nota pode ser apenas maior que 10")                       vgf v       v      v    gvbv gv vgbvgb  vgb  vgbvgbgvgvb gvbgvb vgbgggggggggggggggggggggggggggggggggggggggggggvggbvgbgvf g fg fggf gfffffffffgg fg gggg  gg gf gf ff g gfg  fgf g fgf  fgff fggg fggggggffffffffffffffffffffffff fggg f gfffffffffffffffffffffffffffff gf gf fg fg g ffffff gtgtggggg ff fgg     cvvb vbn vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvnbbbbbbbbbnnnnn vn vbvb vb                   vb  vb vb   v vb         v b bv bbv                            
-                    continue
+                    print("A nota pode ser apenas maior que 10")
                 alunos[nome].append(nota)
             print(f"\nNotas do aluno {nome} registradas com sucesso!")
             break
